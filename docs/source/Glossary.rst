@@ -1,0 +1,41 @@
+Glossary
+========
+
+Cluster Classes
+^^^^^^^^^^^^^^^
+The anaerobic metabolic pathways that gutSMASH predicts can be divided into different gene cluster classes based on the key reaction:
+	
+ - ``OD``: Oxidative decarboxylation (e.g.: porA pathways)
+ - ``DR``: Dehydratase/Reductase (e.g.: Leucine reduction into butyrate)
+ - ``GR``: Glycyl-radical dependent (e.g.: Propanediol degradation operon)
+ - ``FE``: Flavoenzymes dependent (e.g.: bai operon)
+ - ``Others``: pathways that don't fit in any other categories are classified in here (e.g.: Lysine degradation pathway)
+
+
+Custer Types
+^^^^^^^^^^^^
+gutSMASH uses some abbreviations internally to refer to the different types of primary metabolite clusters:
+ - Trimethylamine degradation pathway (*tma* cluster)
+ - Putative glutamate to butyric acid 
+ - Propanediol utilization pathway (*pdu* operon)
+ - Proline2aminovalerate: Proline to 5-aminovalerate cluster
+ - P-cresol cluster
+ - Lysine degradation pathway
+ - Leucine reductive branch
+ - Ethanolamine pathway (*eut* pathway)
+ - Aromatic Amino Acid reductive branch
+ - Acetate to butyrate
+ - Arginine degradation pathway 
+ - 7a-dehydroxylation pathway (*bai* operon)
+ - Gallic acid metabolism
+ - Caffeate respiration
+ - Carnitine degradaion (*caiTABCDE* operon)
+ - Aminobutyrate to butyrate
+ - Succinate to propionate
+ - Acrylate to propionate
+ - Threonine to propionate
+ - Glycine reductase
+ - Glycine cleavage
+
+ 
+
