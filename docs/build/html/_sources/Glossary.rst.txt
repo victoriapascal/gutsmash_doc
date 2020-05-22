@@ -18,14 +18,16 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
  - Trimethylamine degradation pathway (*tma* cluster)
  - Putative glutamate to butyric acid 
  - Propanediol utilization pathway (*pdu* operon)
- - Proline2aminovalerate: Proline to 5-aminovalerate cluster
- - P-cresol cluster
- - Lysine degradation pathway
- - Leucine reductive branch
- - Ethanolamine pathway (*eut* pathway)
+ - Proline to 5-aminovalerate cluster
+ - P-cresol cluster (*hpdBCA* operon)
+ - Lysine degradation pathway (to butyrate)
+ - Leucine reductive branch to butyrate (from *Clostridioides difficile* and *Clostridium sporogenes*)
+ - Ethanolamine pathway (*eut* operon)
  - Aromatic Amino Acid reductive branch
  - Acetate to butyrate
- - Arginine degradation pathway 
+ - Arginine degradation pathway (via agmatine to spermidine)
+ - Arginine degradation to putrescine
+ - Arginine to hydrogen-carbonate 
  - 7a-dehydroxylation pathway (*bai* operon)
  - Gallic acid metabolism
  - Caffeate respiration
@@ -33,7 +35,8 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
  - Aminobutyrate to butyrate
  - Succinate to propionate
  - Acrylate to propionate
- - Threonine to propionate
+ - Threonine to propionate (*tdcABCDEFG* operon)
+ - Hydroxybenzoate to phenol (*hadBCD* operon)
  - Glycine reductase
  - Glycine cleavage
 
