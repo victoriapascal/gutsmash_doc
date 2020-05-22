@@ -12,8 +12,8 @@ The anaerobic metabolic pathways that gutSMASH predicts can be divided into diff
  - ``Others``: pathways that don't fit in any other categories are classified in here (e.g.: Lysine degradation pathway)
 
 
-Custer Types
-^^^^^^^^^^^^
+Cluster Types
+^^^^^^^^^^^^^
 gutSMASH uses some abbreviations internally to refer to the different types of primary metabolite clusters:
  - Trimethylamine degradation pathway (*tma* cluster)
  - Putative glutamate to butyric acid 
