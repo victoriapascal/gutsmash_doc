@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Glossary &mdash; gutsmash.docs 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Help" href="help.html" />
+    <link rel="prev" title="About" href="About.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> gutsmash.docs
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="About.html">About</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Glossary</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#gene-cluster-classes">Gene Cluster Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gene-cluster-types">Gene Cluster Types</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Help</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">gutsmash.docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Glossary</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/Glossary.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="glossary">
+<h1>Glossary<a class="headerlink" href="#glossary" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="gene-cluster-classes">
+<h2>Gene Cluster Classes<a class="headerlink" href="#gene-cluster-classes" title="Permalink to this headline">¶</a></h2>
+<p>The anaerobic metabolic pathways that gutSMASH predicts can be divided into different gene cluster classes based on their product:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Aliphatic</span> <span class="pre">amine</span></code>: ammonia derivatives where at least one H has been replaced by alkyl substituents (e.g.: Arginine to putrescine, Putrescine to spermidine pathways)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">npAA</span></code>: non-proteinogenic amino acids (e.g.: Proline to 5-aminovalerate)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Aromatic</span></code>: derivatives of benzene (e.g.: P-cresol pathway, Caffeate respiration)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">SCFA</span></code>: fatty acids with 5 carbon atoms maximum (e.g.: Acetate to butyrate pathway, Threonine to propionate)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Alcohol-SCFA</span></code>: this is the specific case of the <em>pdu</em> operon, that releases propanol and propionate</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Other</span></code>: pathways that don’t fit in any other categories are classified in here (e.g.: <em>bai</em> operon)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">E-MGC</span></code>: related to energy-capturing mechanisms (e.g.: Ech complex, Rnf complex)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Putative</span></code>: gene clusters of unknown function</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="gene-cluster-types">
+<h2>Gene Cluster Types<a class="headerlink" href="#gene-cluster-types" title="Permalink to this headline">¶</a></h2>
+<p>gutSMASH uses some abbreviations internally to refer to the different types of primary metabolic clusters:</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pathway</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><em>pdu</em> operon</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/27242734/">https://pubmed.ncbi.nlm.nih.gov/27242734/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Arginine to putrescine</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30183487/">https://pubmed.ncbi.nlm.nih.gov/30183487/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Putrescine to spermidine</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30183487/">https://pubmed.ncbi.nlm.nih.gov/30183487/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><em>tma</em> operon</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/25873372/">https://pubmed.ncbi.nlm.nih.gov/25873372/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>AAA reductive branch</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/29168502/">https://pubmed.ncbi.nlm.nih.gov/29168502/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Caffeate respiration</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/23315745/">https://pubmed.ncbi.nlm.nih.gov/23315745/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Gallic acid degradation</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30054365/">https://pubmed.ncbi.nlm.nih.gov/30054365/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Indoleacetate to scatole</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30310076/">https://pubmed.ncbi.nlm.nih.gov/30310076/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>P-cresol synthesis gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/11231288/">https://pubmed.ncbi.nlm.nih.gov/11231288/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Phenylacetate to toluene</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/29556105/">https://pubmed.ncbi.nlm.nih.gov/29556105/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>hydroxybenzoate to phenol</p></td>
+<td><p><a class="reference external" href="https://academic.oup.com/femsec/article/94/9/fiy125/5042942">https://academic.oup.com/femsec/article/94/9/fiy125/5042942</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Carnitine <em>caiTABCDE</em> gene cluster</p></td>
+<td><p><a class="reference external" href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2958.1994.tb00470.x">https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2958.1994.tb00470.x</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Proline to 5-aminovalerate gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/20937090/">https://pubmed.ncbi.nlm.nih.gov/20937090/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Threonine to propionate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/9484901/">https://pubmed.ncbi.nlm.nih.gov/9484901/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Acetate to butyrate gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/17241242/">https://pubmed.ncbi.nlm.nih.gov/17241242/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Acetyl-CoA pathway</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/27733845/">https://pubmed.ncbi.nlm.nih.gov/27733845/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Acrylate to propionate gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/24553467/">https://pubmed.ncbi.nlm.nih.gov/24553467/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Aminobutyrate to butyrate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/27994578/">https://pubmed.ncbi.nlm.nih.gov/27994578/</a></p></td>
+</tr>
+<tr class="row-even"><td><p><em>eut</em> operon</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/20234377/">https://pubmed.ncbi.nlm.nih.gov/20234377/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Fumarate to succinate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/28049145/">https://pubmed.ncbi.nlm.nih.gov/28049145/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Glutamate to butyrate gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/27994578/">https://pubmed.ncbi.nlm.nih.gov/27994578/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Glycine reductase</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/11271425/">https://pubmed.ncbi.nlm.nih.gov/11271425/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Leucine reductive branch</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/15654892/">https://pubmed.ncbi.nlm.nih.gov/15654892/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Lysine degradation ge cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/26620920/">https://pubmed.ncbi.nlm.nih.gov/26620920/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>PFOR II pathway</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/32301184/">https://pubmed.ncbi.nlm.nih.gov/32301184/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Pyruvate to acetate-formate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/20622067/">https://pubmed.ncbi.nlm.nih.gov/20622067/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Succinate to propionate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/24553467/">https://pubmed.ncbi.nlm.nih.gov/24553467/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Pyruvate oxidoreduction gene cluster</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/31831639/">https://pubmed.ncbi.nlm.nih.gov/31831639/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Arginine to hydrogen carbonate</p></td>
+<td><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5300872/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5300872/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Glycine cleavage</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/8375392/">https://pubmed.ncbi.nlm.nih.gov/8375392/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Histidine to glutamate</p></td>
+<td><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429618/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429618/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Hydroxy-L-proline to proline</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/32180548/">https://pubmed.ncbi.nlm.nih.gov/32180548/</a></p></td>
+</tr>
+<tr class="row-even"><td><p><em>bai</em> operon</p></td>
+<td><p><a class="reference external" href="https://www.nature.com/articles/s41586-020-2396-4">https://www.nature.com/articles/s41586-020-2396-4</a></p></td>
+</tr>
+</tbody>
+</table>
+<p>Energy-capturing-related gene clusters (E-MGCs):</p>
+<table class="colwidths-given docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Pathway</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Rnf complex</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/23269825/">https://pubmed.ncbi.nlm.nih.gov/23269825/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Tetrathionate to thiosulfate</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/10231485/">https://pubmed.ncbi.nlm.nih.gov/10231485/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>DMSO/TMAO reductase</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/1917829/">https://pubmed.ncbi.nlm.nih.gov/1917829/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Nitrate reductase</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/2674654/">https://pubmed.ncbi.nlm.nih.gov/2674654/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Ech complex</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30850546/">https://pubmed.ncbi.nlm.nih.gov/30850546/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Formate dehydrogenase</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/26443736/">https://pubmed.ncbi.nlm.nih.gov/26443736/</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Glycerol-3-P dehydrogenase</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/26443736/">https://pubmed.ncbi.nlm.nih.gov/26443736/</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>NADH dehydrogenase I</p></td>
+<td><p><a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/26443736/">https://pubmed.ncbi.nlm.nih.gov/26443736/</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="help.html" class="btn btn-neutral float-right" title="Help" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="About.html" class="btn btn-neutral float-left" title="About" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Victoria Pascal
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
