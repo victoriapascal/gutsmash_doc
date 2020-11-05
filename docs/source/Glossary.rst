@@ -28,7 +28,7 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
    "*tma* operon", `<https://pubmed.ncbi.nlm.nih.gov/25873372/>`_ 
    "AAA reductive branch", `<https://pubmed.ncbi.nlm.nih.gov/29168502/>`_
    "Caffeate respiration", `<https://pubmed.ncbi.nlm.nih.gov/23315745/>`_
-   "Gallic acid degradation", `<https://pubmed.ncbi.nlm.nih.gov/30054365/>`_
+   "Gallic acid metabolism", `<https://pubmed.ncbi.nlm.nih.gov/30054365/>`_
    "Indoleacetate to scatole", `<https://pubmed.ncbi.nlm.nih.gov/30310076/>`_ 
    "P-cresol synthesis gene cluster", `<https://pubmed.ncbi.nlm.nih.gov/11231288/>`_
    "Phenylacetate to toluene", `<https://pubmed.ncbi.nlm.nih.gov/29556105/>`_
@@ -45,12 +45,12 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
    "Glutamate to butyrate gene cluster", `<https://pubmed.ncbi.nlm.nih.gov/27994578/>`_
    "Glycine reductase", `<https://pubmed.ncbi.nlm.nih.gov/11271425/>`_
    "Leucine reductive branch", `<https://pubmed.ncbi.nlm.nih.gov/15654892/>`_
-   "Lysine degradation ge cluster", `<https://pubmed.ncbi.nlm.nih.gov/26620920/>`_
-   "PFOR II pathway", `<https://pubmed.ncbi.nlm.nih.gov/32301184/>`_
+   "Lysine degradation gene cluster", `<https://pubmed.ncbi.nlm.nih.gov/26620920/>`_
+   "PFOR-II pathway", `<https://pubmed.ncbi.nlm.nih.gov/32301184/>`_
    "Pyruvate to acetate-formate", `<https://pubmed.ncbi.nlm.nih.gov/20622067/>`_
    "Succinate to propionate ", `<https://pubmed.ncbi.nlm.nih.gov/24553467/>`_
-   "Pyruvate oxidoreduction gene cluster", `<https://pubmed.ncbi.nlm.nih.gov/31831639/>`_
-   "Arginine to hydrogen carbonate", `<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5300872/>`_
+   "porA pathway", `<https://pubmed.ncbi.nlm.nih.gov/31831639/>`_
+   "Arginine to Hcarbonate", `<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5300872/>`_
    "Glycine cleavage", `<https://pubmed.ncbi.nlm.nih.gov/8375392/>`_
    "Histidine to glutamate", `<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429618/>`_
    "Hydroxy-L-proline to proline", `<https://pubmed.ncbi.nlm.nih.gov/32180548/>`_ 
