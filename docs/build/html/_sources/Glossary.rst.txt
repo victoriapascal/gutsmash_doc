@@ -55,6 +55,7 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
    "Histidine to glutamate", `<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3429618/>`_
    "Hydroxy-L-proline to proline", `<https://pubmed.ncbi.nlm.nih.gov/32180548/>`_ 
    "*bai* operon", `<https://www.nature.com/articles/s41586-020-2396-4>`_
+   "sulfate to sulfide", `<https://pubmed.ncbi.nlm.nih.gov/10792666/>`_
 
 Energy-capturing-related gene clusters (E-MGCs):
 
