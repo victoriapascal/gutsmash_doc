@@ -9,7 +9,7 @@ The anaerobic metabolic pathways that gutSMASH predicts can be divided into diff
  - ``npAA``: non-proteinogenic amino acids (e.g.: Proline to 5-aminovalerate)
  - ``Aromatic``: derivatives of benzene (e.g.: P-cresol pathway, Caffeate respiration)
  - ``SCFA``: fatty acids with 5 carbon atoms maximum (e.g.: Acetate to butyrate pathway, Threonine to propionate)
- - ``Alcohol-SCFA``: this is the specific case of the *pdu* operon, that releases propanol and propionate
+ - ``SCFA-other``: a SCFA is produced in combination with another molecule. For instance, the *pdu* operon, releases propanol and propionate
  - ``Other``: pathways that don't fit in any other categories are classified in here (e.g.: *bai* operon)
  - ``E-MGC``: related to energy-capturing mechanisms (e.g.: Ech complex, Rnf complex)
  - ``Putative``: gene clusters of unknown function
