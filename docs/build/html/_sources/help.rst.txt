@@ -1,5 +1,10 @@
 Help
 ====
 
-gutSMASH uses antiSMASH framework so you can visit their site for further technical information (https://docs.antismash.secondarymetabolites.org/) or contact us for any question at: gutsmash.contact@gmail.com
+You can find more technical information in our help or github page:
+
+	- https://gutsmash.bioinformatics.nl/help.html
+	- https://github.com/victoriapascal/gutsmash 
+
+You can contact us for any further question at gutsmash.contact@gmail.com
 
