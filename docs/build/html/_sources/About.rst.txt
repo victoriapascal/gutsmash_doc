@@ -13,5 +13,5 @@ How to run gutSMASH
 How to cite
 ^^^^^^^^^^^
 
-If you have found gutSMASH useful, please cite our preprint: https://www.biorxiv.org/content/10.1101/2021.02.25.432841v1 
+If you have found gutSMASH useful, please cite our preprint on the algorithm: https://www.biorxiv.org/content/10.1101/2021.02.25.432841v1, and/or the article describing the gutSMASH web server: https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab353/6279837 
 
