@@ -56,6 +56,21 @@ gutSMASH uses some abbreviations internally to refer to the different types of p
    "Hydroxy-L-proline to proline", `<https://pubmed.ncbi.nlm.nih.gov/32180548/>`_ 
    "*bai* operon", `<https://www.nature.com/articles/s41586-020-2396-4>`_
    "sulfate to sulfide", `<https://pubmed.ncbi.nlm.nih.gov/10792666/>`_
+   "Phenylpyruvate to phenylacetylCoA", `<https://pmc.ncbi.nlm.nih.gov/articles/PMC9839529/>`_
+   "Bilirubin to urobilinogen", `<https://www.nature.com/articles/s41564-023-01549-x/>`_
+   "r-butyrobetaine to TMA", `<https://pubmed.ncbi.nlm.nih.gov/34949826/>`_
+   "Anaerobic sulfite to H2S", `<https://pubmed.ncbi.nlm.nih.gov/1704886/>`_
+   "APS to sulfite + AMP", `<https://pubmed.ncbi.nlm.nih.gov/19820092/>`_
+   "sulfate to 3’-Phosphoadenosine-5’-Phosphosulfate (PAPS)", `<https://pubmed.ncbi.nlm.nih.gov/39152482/>`_
+   "PAPS to H2S", `<https://pubmed.ncbi.nlm.nih.gov/39152482/>`_
+   "Taurine to H2S", `<https://pubmed.ncbi.nlm.nih.gov/8808933/>`_
+   "Alkanesulfonate to H2S", `<https://pubmed.ncbi.nlm.nih.gov/10506196/>`_
+   "sulfoqunovose to sulphonate, `<https://pubmed.ncbi.nlm.nih.gov/24463506/>`_
+   "sulfoqunovose to 3-sulfolactaldehyde, `<https://pubmed.ncbi.nlm.nih.gov/26195800/>`_
+   "Uric acid to Xanthine, `<https://pubmed.ncbi.nlm.nih.gov/10986234/>`_
+   "Uric acid to SCFA, `<https://pmc.ncbi.nlm.nih.gov/articles/PMC10421625/>`_
+   "2-oxoglutarate to succinyl-CoA, `<https://pmc.ncbi.nlm.nih.gov/articles/PMC9839529/>`_
+
 
 Energy-capturing-related gene clusters (E-MGCs):
 
